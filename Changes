@@ -1,0 +1,7 @@
+Revision history for Perl extension SVN::DumpReloc.
+
+0.01  Tue Aug 19 17:02:37 2008
+        - Matt S Trout asked for it...
+	- original version; created by h2xs 1.23 with options
+		-AXn SVN::DumpReloc
+
