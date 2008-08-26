@@ -69,11 +69,12 @@ while (!eof STDIN) {
                 my $re = $f2re{$from};
                 if ($v =~ $re) {
                     if ($from eq '') {
-                        $line = "$k: $1$/";
+                        $line = "$k: $f2t{$from}/$1$/";
                     }
                     else {
                         $line = "$k: $f2t{$from}$1$/";
                     }
+                    # print STDERR "from: $from, re: $re, to: $line";
                     last;
                 }
             }
